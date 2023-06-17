@@ -1,0 +1,64 @@
+.top-level{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #344151;
+    gap: 20px;
+}
+.Incrementanddec{
+    color: #0398d4;
+    font-size: medium;
+   font-size: x-large;
+   
+}
+.mid-part{
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   padding-bottom: 3px;
+   gap: 20px;
+   border-radius: 0.125rem;
+   font-size: 35px;
+   color: #344151;
+  
+
+}
+
+.button-ve{
+    border-radius: 2px;
+    text-align: center;
+    width: 5rem;
+    border: #bfbfbf;
+    font-size: 35px;
+    border-right: solid black 2px;
+
+}
+
+.buttonpos{
+    border-radius: 2px;
+    text-align: center;
+    width: 5rem;
+    border: #bfbfbf;
+    font-size: 35px;
+    border-left: solid black 2px;
+
+}
+.counting-part{
+    font-weight: bold;
+    gap: 12px;
+    font-size: 35px;
+}
+.resetbutton{
+    background-color: #0398d4;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    font-size: large;
+}
